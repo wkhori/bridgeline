@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light;
+  --brand-forest: #0b5b2a;
+  --brand-forest-dark: #08421f;
+  --brand-graphite: #151716;
+  --brand-slate: #2a2f2c;
+  --brand-mist: #f3f6f2;
+  --brand-ivory: #fbfaf6;
+  --brand-moss: #dfe9e2;
+}
+
+body {
+  font-family: var(--font-sans, 'Trebuchet MS', 'Segoe UI', sans-serif);
+  background: var(--brand-mist);
+  color: var(--brand-graphite);
+}
