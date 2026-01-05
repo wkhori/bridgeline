@@ -11,6 +11,8 @@ npm run dev
 
 Open http://localhost:3000 and upload files from `/prompt`.
 
+Or try the deployed demo: https://bridgeline-peach.vercel.app/
+
 ## How It Works
 
 Upload → Parse (unpdf/xlsx) → Extract (regex + heuristics) → LLM fallback → Review & Edit → Deduplicate → ITB
